@@ -94,7 +94,7 @@ class Application extends LumenApplication {
                 mkdir($this->gaeBucketPath.'/framework/views');
             }
 
-            $this->useStoragePath($this->gaeBucketPath);
+            //$this->useStoragePath($this->gaeBucketPath);
         }
     }
 
